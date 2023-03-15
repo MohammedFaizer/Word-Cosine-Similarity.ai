@@ -4,7 +4,7 @@ openai.api_key = "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"
 # define a function to generate a response
 def generate_response(prompt):
     response = openai.Completion.create(
-        engine="davinci",
+        engine="s",
         prompt=prompt,
         max_tokens=1024,
         n=1,
