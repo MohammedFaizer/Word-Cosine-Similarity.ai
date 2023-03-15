@@ -10,3 +10,5 @@ while True:
     customer=input('you:')
     if customer.__contains__('faizer'):
         print('chatbot:',document_text)
+    else :
+        print('chatbot:sorry!! data is not feeded')
